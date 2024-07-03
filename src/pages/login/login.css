@@ -5,6 +5,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  /* border: 1px solid black; */
 }
 
 .container h1 {
@@ -18,6 +19,10 @@
   margin: 2rem 0;
 }
 
+.container form {
+  margin-bottom: 5rem;
+}
+
 .container input {
   border: 1px solid rgb(177, 177, 177);
   padding: 1rem;
@@ -27,15 +32,11 @@
   outline: none;
 }
 
-form {
-  margin-bottom: 5rem;
-}
-
 input:focus {
   border: 1px solid black;
 }
 
-button[type="submit"] {
+button[type='submit'] {
   margin-top: 1.5rem;
   background-color: black;
   color: white;
